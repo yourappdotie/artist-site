@@ -1,0 +1,9 @@
+.panes-container {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .panes-container {
+    flex-direction: column;
+  }
+}
