@@ -1,5 +1,5 @@
 import { Transition } from 'react-transition-group';
-import { useWindowDimensions } from "../Containers";
+import { useWindowDimensions } from "../Containers.jsx";
 
 const MenuItem = (props) => {
   return (

@@ -1,19 +1,20 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Transition } from 'react-transition-group';
-import { useWindowDimensions, Suggestion } from "./components/Containers";
-import ArtistMenu from './components/artistTheme/ArtistMenu';
-import ArtistSelectedImage from './components/artistTheme/ArtistSelectedImage';
-import ArtistGallery from './components/artistTheme/ArtistGallery';
-import image1 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-1920x1392.jpg';
-import image2 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-1920x2857.jpg';
-import image3 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-1920x2560.jpg';
-import image4 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-1920x1440.jpg';
-import image5 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-1920x2432.jpg';
-import smallImage1 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-640x464.jpg';
-import smallImage2 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-640x952.jpg';
-import smallImage3 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-640x853.jpg';
-import smallImage4 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-640x480.jpg';
-import smallImage5 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-640x811.jpg';
+import { useWindowDimensions, Suggestion } from "./components/Containers.jsx";
+import ArtistMenu from './components/artistTheme/ArtistMenu.jsx';
+import ArtistSelectedImage from './components/artistTheme/ArtistSelectedImage.jsx';
+import ArtistGallery from './components/artistTheme/ArtistGallery.jsx';
+
+const image1 = '/assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-1920x1392.jpg';
+const image2 = '/assets/images/artist/europeana-VsnDYMWollM-unsplash-1920x2857.jpg';
+const image3 = '/assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-1920x2560.jpg';
+const image4 = '/assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-1920x1440.jpg';
+const image5 = '/assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-1920x2432.jpg';
+const smallImage1 = '/assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-640x464.jpg';
+const smallImage2 = '/assets/images/artist/europeana-VsnDYMWollM-unsplash-640x952.jpg';
+const smallImage3 = '/assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-640x853.jpg';
+const smallImage4 = '/assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-640x480.jpg';
+const smallImage5 = '/assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-640x811.jpg';
 
 const Spinner = () => {
   return (

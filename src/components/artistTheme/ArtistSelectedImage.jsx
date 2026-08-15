@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Transition } from 'react-transition-group';
-import { useWindowDimensions } from "../Containers";
-import { getDisplayDimensions } from './ArtistGalleryItem';
+import { useWindowDimensions } from "../Containers.jsx";
+import { getDisplayDimensions } from './ArtistGalleryItem.jsx';
 
 const ArtistSelectedImage = (props) => {
 

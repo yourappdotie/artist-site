@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { SuggestionCard } from './SuggestionCard';
+import { SuggestionCard } from './SuggestionCard.jsx';
 import '../styles/containers.css';
 
 export const Suggestion = (props) => {

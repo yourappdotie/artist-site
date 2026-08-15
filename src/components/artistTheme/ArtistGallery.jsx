@@ -1,5 +1,5 @@
-import { useWindowDimensions } from '../Containers';
-import ArtistGalleryItem from './ArtistGalleryItem';
+import { useWindowDimensions } from '../Containers.jsx';
+import ArtistGalleryItem from './ArtistGalleryItem.jsx';
 
 function useViewportAspectRatio() {
   return useWindowDimensions().width
