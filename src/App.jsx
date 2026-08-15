@@ -4,18 +4,16 @@ import { useWindowDimensions, Suggestion } from "./components/Containers";
 import ArtistMenu from './components/artistTheme/ArtistMenu';
 import ArtistSelectedImage from './components/artistTheme/ArtistSelectedImage';
 import ArtistGallery from './components/artistTheme/ArtistGallery';
-import mainImage from './assets/images/artist/main-3250x2600.jpg';
-import image2 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-1920x1392.jpg';
-import image3 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-1920x2857.jpg';
-import image4 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-1920x2560.jpg';
-import image5 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-1920x1440.jpg';
-import image6 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-1920x2432.jpg';
-import smallImage1 from './assets/images/artist/main-640x512.jpg';
-import smallImage2 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-640x464.jpg';
-import smallImage3 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-640x952.jpg';
-import smallImage4 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-640x853.jpg';
-import smallImage5 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-640x480.jpg';
-import smallImage6 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-640x811.jpg';
+import image1 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-1920x1392.jpg';
+import image2 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-1920x2857.jpg';
+import image3 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-1920x2560.jpg';
+import image4 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-1920x1440.jpg';
+import image5 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-1920x2432.jpg';
+import smallImage1 from './assets/images/artist/birmingham-museums-trust-HslbEeUauYA-unsplash-640x464.jpg';
+import smallImage2 from './assets/images/artist/europeana-VsnDYMWollM-unsplash-640x952.jpg';
+import smallImage3 from './assets/images/artist/vitaly-mazur-2FoOJYuWIEk-unsplash-640x853.jpg';
+import smallImage4 from './assets/images/artist/mayur-deshpande-zZPeoLxLRyM-unsplash-640x480.jpg';
+import smallImage5 from './assets/images/artist/steve-johnson-e5LdlAMpkEw-unsplash-640x811.jpg';
 
 const Spinner = () => {
   return (
@@ -140,10 +138,10 @@ const ArtistTheme = () => {
   document.body.style.overflow = 'hidden';
   const images = [
     {
-      image: mainImage,
+      image: image1,
       galleryImage: smallImage1,
-      title: 'Mathew Schwartz',
-      subtitle: 'New Jersey Institute of Technology',
+      title: 'Birmingham Museums Trust',
+      subtitle: '',
     }, {
       image: image2,
       galleryImage: smallImage2,
@@ -162,11 +160,6 @@ const ArtistTheme = () => {
     }, {
       image: image5,
       galleryImage: smallImage5,
-      title: '',
-      subtitle: '',
-    }, {
-      image: image6,
-      galleryImage: smallImage6,
       title: '',
       subtitle: '',
     },
